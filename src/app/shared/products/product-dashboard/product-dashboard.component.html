@@ -1,0 +1,27 @@
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 offset-2">
+      <app-product-form></app-product-form>
+
+    </div>
+    </div>
+
+    <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 offset-2 ">
+        <app-product-card
+        [productobj]="product"
+        *ngFor="let product of productArr">
+
+        </app-product-card>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
