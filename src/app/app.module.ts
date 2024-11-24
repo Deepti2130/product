@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { productModule } from './shared/products/product.module';
 import { FormsModule } from '@angular/forms';
 import { materialModule } from './shared/material/material.module';
+import { PassengersModule } from './shared/passengers/passengers.module';
 
 
 
@@ -21,7 +22,8 @@ import { materialModule } from './shared/material/material.module';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    materialModule
+    materialModule,
+    PassengersModule
 
   ],
   providers: [],

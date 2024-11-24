@@ -1,0 +1,19 @@
+<h2>Airline Passenger</h2>
+
+<app-pass-count
+[totalcount]="passArr.length"
+[checkIncount]="checkIncount">
+
+</app-pass-count>
+
+<ul class="list-group my-4">
+  <li class="list-group-item" *ngFor="let pass of passArr">
+  {{pass.fullname}}
+  </li>
+</ul>
+{{getcheckIncount()| json}}
+<app-pass-card
+(emitpassInfo)="onRemoveupdate($event)"
+[passobj]="pass" *ngFor="let pass of passArr">
+
+</app-pass-card>

@@ -1,0 +1,29 @@
+.passCard{
+  .form-control:disabled{
+    background-color: transparent;
+    opacity: 1;
+    border: 0;
+    font-weight: bold;
+  }
+
+  .CheckInstatus{
+
+    width:13px;
+    height:13px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    left: -5px;
+    top:12px
+  }
+
+  .form-group{
+    margin-bottom: 1rem;
+    position: relative;
+  }
+}
+
+
+
+
+
